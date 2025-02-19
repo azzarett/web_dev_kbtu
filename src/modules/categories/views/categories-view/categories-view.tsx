@@ -1,7 +1,5 @@
 /* eslint-disable react/no-array-index-key */
-import { useState } from 'react';
-
-import { ProductCard } from '@/modules/products/components/product-card';
+import { useNavigate } from 'react-router-dom';
 
 import { CategoryCard } from '../../components/category-card/category-card';
 import styles from './categories-view.module.css';
@@ -178,36 +176,20 @@ const categories = [
 ];
 
 export const CategoryView = () => {
-  const [selectedCategory, setSelectedCategory] = useState<number | null>(null);
-
+  const navigate = useNavigate();
   return (
     <div className={styles.container}>
-      {selectedCategory === null ? (
-        <div className={styles.categoriesGrid}>
-          {categories.map((category, index) => (
-            <div key={index} onClick={() => setSelectedCategory(index)}>
-              <CategoryCard category={category} />
-            </div>
-          ))}
-        </div>
-      ) : (
-        <div className={styles.productsView}>
-          <button
-            className={styles.backButton}
-            onClick={() => setSelectedCategory(null)}
+      <div className={styles.categoriesGrid}>
+        {categories.map((category, index) => (
+          <div
+            key={index}
+            onClick={() => navigate('/products')}
+            className={styles.categoryCard}
           >
-            ← Назад
-          </button>
-          <h2 className={styles.categoryTitle}>
-            {categories[selectedCategory].name}
-          </h2>
-          <div className={styles.productsGrid}>
-            {categories[selectedCategory].products.map((product, index) => (
-              <ProductCard key={index} product={product} />
-            ))}
+            <CategoryCard category={category} />
           </div>
-        </div>
-      )}
+        ))}
+      </div>
     </div>
   );
 };

@@ -46,7 +46,6 @@ module.exports = {
     'no-ternary': 'off',
     'sort-keys': 'off',
     'react/no-array-index-key': 'off',
-
   },
   overrides: [
     {
