@@ -15,7 +15,7 @@ export const routes: RouteObject[] = [
         element: <CategoryView />,
       },
       {
-        path: `/products/categoryName`,
+        path: `/products/:categoryName`,
         element: <ProductView />,
       },
     ],
