@@ -41,6 +41,12 @@ module.exports = {
     'one-var': 'off',
     'no-use-before-define': 'off',
     'arrow-body-style': 'off',
+    'react/prefer-read-only-props': 'off',
+    'react/jsx-sort-props': 'off',
+    'no-ternary': 'off',
+    'sort-keys': 'off',
+    'react/no-array-index-key': 'off',
+
   },
   overrides: [
     {
