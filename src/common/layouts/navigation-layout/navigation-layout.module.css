@@ -1,0 +1,19 @@
+.headerWrapper {
+  width: 100%;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  z-index: 1000;
+}
+
+.contentWrapper {
+  min-height: 100vh;
+
+  padding: 80px 0 0 300px;
+
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
