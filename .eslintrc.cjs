@@ -40,6 +40,7 @@ module.exports = {
     'react/forbid-component-props': 'off',
     'one-var': 'off',
     'no-use-before-define': 'off',
+    'arrow-body-style': 'off',
   },
   overrides: [
     {
