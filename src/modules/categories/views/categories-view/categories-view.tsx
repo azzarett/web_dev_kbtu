@@ -183,7 +183,7 @@ export const CategoryView = () => {
         {categories.map((category, index) => (
           <div
             key={index}
-            onClick={() => navigate('/products')}
+            onClick={() => navigate(`/products/${category.name}`)}
             className={styles.categoryCard}
           >
             <CategoryCard category={category} />
