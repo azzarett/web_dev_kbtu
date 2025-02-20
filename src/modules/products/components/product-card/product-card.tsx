@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import styles from './product-card.module.css';
@@ -26,17 +27,28 @@ const shareOnTelegram = (product: any) => {
 };
 
 export const ProductCard = ({ product }: ProductCardProps) => {
+  const [likes, setLikes] = useState(product.likes);
+
+  const handleLike = () => {
+    setLikes(likes + 1);
+  };
+
   return (
     <div className={styles.card}>
       <img className={styles.image} src={product.image} alt={product.name} />
       <div className={styles.content}>
+        <div className={styles.likesContainer}>
+          <button className={styles.likeButton} onClick={handleLike}>
+            <i className="bx bx-like" />
+            {likes}
+          </button>
+        </div>
         <Link to={product.url}>
           <h3 className={styles.name}>{product.name}</h3>
         </Link>
         <p className={styles.description}>{product.description}</p>
         <div className={styles.bottom}>
-          <p className={styles.price}>{product.price}тг</p>
-          <p className={styles.likes}>⭐ {product.likes}</p>
+          <p className={styles.price}>{product.price}₸</p>
           <div className={styles.shareButtons}>
             <a
               href={shareOnWhatsApp(product)}

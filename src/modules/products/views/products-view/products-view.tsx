@@ -91,7 +91,7 @@ const categories = [
           'https://resources.cdn-kaspi.kz/img/m/p/hfd/h22/87121922228254.jpg?format=gallery-medium',
         name: 'Повседневный костюм синий, темно-синий',
         description:
-          'Для любителей спортивного, свободного, оверсайз стиля, к вашему вниманию, предоставляем самую трендовую модную одежду этого года.',
+          'Для любителей спортивного, свободного, оверсайз стиля, одеждa этого года.',
         price: 10994,
         likes: 43,
         url: 'https://kaspi.kz/shop/p/povsednevnyi-kostjum-30241445-699061223-sinii-temno-sinii-42-48-123561323/?c=750000000',
