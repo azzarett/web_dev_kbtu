@@ -17,7 +17,7 @@ const categories = [
         description:
           'Зарядное устройство Apple 18W USB-C Power Adapter USB Type-C белый',
         price: 8386,
-        rating: 4.5,
+        likes: 100,
         url: 'https://kaspi.kz/shop/p/apple-18w-usb-c-power-adapter-usb-type-c-belyi-102743952/?c=750000000',
       },
       {
@@ -27,7 +27,7 @@ const categories = [
         description:
           'Флагманский IPhone 16 Pro Max вобрал в себя лучшие черты современного гаджета.',
         price: 688690,
-        rating: 4.8,
+        likes: 43,
         url: 'https://kaspi.kz/shop/p/apple-iphone-16-pro-max-256gb-chernyi-123787551/?c=750000000',
       },
       {
@@ -37,7 +37,7 @@ const categories = [
         description:
           'Ноутбук ThundeRobot 911 X Wild Hunter G2 Pro 15.6" / 16 Гб / SSD 512 Гб / Win 11 Pro /',
         price: 529758,
-        rating: 4.6,
+        likes: 413,
         url: 'https://kaspi.kz/shop/p/thunderobot-911-x-wild-hunter-g2-pro-15-6-16-gb-ssd-512-gb-win-11-pro--120386920/?c=750000000',
       },
       {
@@ -47,7 +47,7 @@ const categories = [
         description:
           'Планшет Apple iPad 2022 10.9 Wi-Fi 10.9 дюйм 4 Гб/64 Гб серебристый',
         price: 196977,
-        rating: 4.3,
+        likes: 4124,
         url: 'https://kaspi.kz/shop/p/apple-ipad-2022-10-9-wi-fi-10-9-djuim-4-gb-64-gb-serebristyi-107264764/?c=750000000',
       },
       {
@@ -57,7 +57,7 @@ const categories = [
         description:
           'Смарт-часы Apple Watch SE GPS Gen.2 2024 S/M 40 мм бежевый',
         price: 120645,
-        rating: 4.7,
+        likes: 445,
         url: 'https://kaspi.kz/shop/p/apple-watch-se-gps-gen-2-2024-s-m-40-mm-bezhevyi-129172890/?c=750000000',
       },
     ],
@@ -73,7 +73,7 @@ const categories = [
         name: 'Сарафан черный',
         description: 'Сарафан, повседневное платье, вечернее платье',
         price: 4145,
-        rating: 4.2,
+        likes: 100,
         url: 'https://kaspi.kz/shop/p/sarafan-30295090-110067001-chernyi-44-123067288/?c=750000000&hasVariants=true',
       },
       {
@@ -83,7 +83,7 @@ const categories = [
         description:
           'Эта постиранная хлопковая футболка изготовлена из высококачественного хлопка.',
         price: 3152,
-        rating: 4.5,
+        likes: 125,
         url: 'https://kaspi.kz/shop/p/futbolka-730323194-chernyi-s-118690121/?c=750000000',
       },
       {
@@ -93,7 +93,7 @@ const categories = [
         description:
           'Для любителей спортивного, свободного, оверсайз стиля, к вашему вниманию, предоставляем самую трендовую модную одежду этого года.',
         price: 10994,
-        rating: 4.6,
+        likes: 43,
         url: 'https://kaspi.kz/shop/p/povsednevnyi-kostjum-30241445-699061223-sinii-temno-sinii-42-48-123561323/?c=750000000',
       },
       {
@@ -103,7 +103,7 @@ const categories = [
         description:
           'Жилет свободного кроя. Оверсайз. Размер L подойдёт на 46 размер.',
         price: 3889,
-        rating: 4.4,
+        likes: 234,
         url: 'https://kaspi.kz/shop/p/zhilet-shein-239717-chernyi-l-116560081/?c=750000000',
       },
       {
@@ -113,7 +113,7 @@ const categories = [
         description:
           'Отлично сохраняет тепло, не позволяя потеть человеку. Пригодно к носке как осенью так и зимой смело.',
         price: 3799,
-        rating: 4.3,
+        likes: 76,
         url: 'https://kaspi.kz/shop/p/komplekt-5-11-8073-chernyi-46-115785506/?c=750000000',
       },
     ],
@@ -130,7 +130,7 @@ const categories = [
         description:
           'Пылесос Deerma DX700 – стильный, компактный и удобный пылесос',
         price: 15985,
-        rating: 4.6,
+        likes: 96,
         url: 'https://kaspi.kz/shop/p/deerma-dx700-belyi-3701383/?c=750000000',
       },
       {
@@ -139,7 +139,7 @@ const categories = [
         name: 'Стиральная машина LG F2J3NS0W белый',
         description: 'Глубина стиральной машины LG F2J3NS0W всего 44 см',
         price: 161000,
-        rating: 4.5,
+        likes: 645,
         url: 'https://kaspi.kz/shop/p/lg-f2j3ns0w-belyi-3601511/?c=750000000',
       },
       {
@@ -148,7 +148,7 @@ const categories = [
         name: 'Микроволновая печь Hansa AMMF19M1SH серебристый',
         description: 'Греет быстро. Без постороннего запаха. С подсветкой.',
         price: 27990,
-        rating: 4.8,
+        likes: 4543,
         url: 'https://kaspi.kz/shop/p/hansa-ammf19m1sh-serebristyi-123644190/?c=750000000',
       },
       {
@@ -158,7 +158,7 @@ const categories = [
         description:
           'Блокировка включения без воды, отключение при закипании, отключение при снятии с подставки',
         price: 3149,
-        rating: 4.7,
+        likes: 23,
         url: 'https://kaspi.kz/shop/p/elektrochainik-yingzheng-zy-303-chernyi-117520213/?c=750000000',
       },
       {
@@ -168,7 +168,7 @@ const categories = [
         description:
           'Конвекционный нагрев на 360° - модернизированный круглый воздуховод',
         price: 58872,
-        rating: 4.6,
+        likes: 50,
         url: 'https://kaspi.kz/shop/p/elektrogril-xiaomi-smart-air-fryer-6-5l-bhr7357eu-118273472/?c=750000000',
       },
     ],
@@ -185,7 +185,7 @@ const categories = [
         description:
           'Лучшая деловая книга 2018 года по версии Fast Company.Лучшая книга по самопомощи 2018 года по версии Business Insider.',
         price: 2197,
-        rating: 4.8,
+        likes: 43,
         url: 'https://kaspi.kz/shop/p/klir-d-atomnye-privychki-117680550/?c=750000000',
       },
       {
@@ -195,7 +195,7 @@ const categories = [
         description:
           'Бұл кітап ұлы ғалым Қаныш Сәтбаевтың өмірі мен ғылыми қызметіне арналады.',
         price: 3639,
-        rating: 4.7,
+        likes: 54,
         url: 'https://kaspi.kz/shop/p/ker-mbai-s-n-bi-anysh-zh-ne-ylymi-maidan-123730850/?c=750000000',
       },
       {
@@ -205,7 +205,7 @@ const categories = [
         description:
           'Парсы мәдениетінде «Бір беттік кітап» деген қызық жанр бар. ',
         price: 4905,
-        rating: 4.5,
+        likes: 20,
         url: 'https://kaspi.kz/shop/p/me-di-mirazimi-b-r-bett-k-k-tap-132113252/?c=750000000',
       },
       {
@@ -215,7 +215,7 @@ const categories = [
         description:
           'Бұл кітапта журналист Бейсен Құранбектің болмысына экзистенциялық талдау жасалады.',
         price: 2400,
-        rating: 4.6,
+        likes: 46,
         url: 'https://kaspi.kz/shop/p/ker-mbai-s-span-a-beisen-zh-ne-bolmys-103354158/?c=750000000',
       },
       {
@@ -224,7 +224,7 @@ const categories = [
         name: 'Раскраска Magic water Водная раскраска',
         description: 'Магические миры и приключения',
         price: 395,
-        rating: 4.9,
+        likes: 49,
         url: 'https://kaspi.kz/shop/p/magic-water-vodnaja-raskraska-101860421/?c=750000000',
       },
     ],

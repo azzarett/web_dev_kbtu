@@ -8,19 +8,19 @@ interface ProductCardProps {
     name: string;
     description: string;
     price: number;
-    rating: number;
+    likes: number;
     url: string;
   };
 }
 
 const shareOnWhatsApp = (product: any) => {
-  const text = `🔥 ${product.name}\n${product.description}\n💰 Цена: ${product.price}₸\n⭐ Рейтинг: ${product.rating}\n🔗 ${product.url}`;
+  const text = `🔥 ${product.name}\n${product.description}\n💰 Цена: ${product.price}₸\n⭐ Рейтинг: ${product.likes}\n🔗 ${product.url}`;
   const encodedText = encodeURIComponent(text);
   return `https://wa.me/?text=${encodedText}`;
 };
 
 const shareOnTelegram = (product: any) => {
-  const text = `🔥 ${product.name}\n${product.description}\n💰 Цена: ${product.price}₸\n⭐ Рейтинг: ${product.rating}\n🔗 ${product.url}`;
+  const text = `🔥 ${product.name}\n${product.description}\n💰 Цена: ${product.price}₸\n⭐ Рейтинг: ${product.likes}\n🔗 ${product.url}`;
   const encodedText = encodeURIComponent(text);
   return `https://t.me/share/url?url=${product.url}&text=${encodedText}`;
 };
@@ -36,7 +36,7 @@ export const ProductCard = ({ product }: ProductCardProps) => {
         <p className={styles.description}>{product.description}</p>
         <div className={styles.bottom}>
           <p className={styles.price}>{product.price}тг</p>
-          <p className={styles.rating}>⭐ {product.rating}</p>
+          <p className={styles.likes}>⭐ {product.likes}</p>
           <div className={styles.shareButtons}>
             <a
               href={shareOnWhatsApp(product)}
