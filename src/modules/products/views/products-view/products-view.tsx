@@ -15,6 +15,7 @@ const categories = [
         description: 'Флагманский смартфон',
         price: 799,
         rating: 4.5,
+        url: 'https://www.google.com',
       },
       {
         image: '/images/laptop.jpg',
@@ -22,6 +23,7 @@ const categories = [
         description: 'Мощный ноутбук',
         price: 1200,
         rating: 4.8,
+        url: 'https://www.google.com',
       },
       {
         image: '/images/headphones.jpg',
@@ -29,6 +31,7 @@ const categories = [
         description: 'Беспроводные наушники',
         price: 199,
         rating: 4.6,
+        url: 'https://www.google.com',
       },
       {
         image: '/images/tablet.jpg',
@@ -36,6 +39,7 @@ const categories = [
         description: 'Компактный планшет',
         price: 499,
         rating: 4.3,
+        url: 'https://www.google.com',
       },
       {
         image: '/images/smartwatch.jpg',
@@ -43,6 +47,7 @@ const categories = [
         description: 'Стильные умные часы',
         price: 299,
         rating: 4.7,
+        url: 'https://www.google.com',
       },
     ],
   },
@@ -57,6 +62,7 @@ const categories = [
         description: 'Качественная футболка',
         price: 29,
         rating: 4.2,
+        url: 'https://www.google.com',
       },
       {
         image: '/images/jeans.jpg',
@@ -64,6 +70,7 @@ const categories = [
         description: 'Стильные джинсы',
         price: 59,
         rating: 4.5,
+        url: 'https://www.google.com',
       },
       {
         image: '/images/jacket.jpg',
@@ -71,6 +78,7 @@ const categories = [
         description: 'Тёплая зимняя куртка',
         price: 99,
         rating: 4.6,
+        url: 'https://www.google.com',
       },
       {
         image: '/images/shoes.jpg',
@@ -78,6 +86,7 @@ const categories = [
         description: 'Удобные кроссовки',
         price: 89,
         rating: 4.4,
+        url: 'https://www.google.com',
       },
       {
         image: '/images/hat.jpg',
@@ -85,6 +94,7 @@ const categories = [
         description: 'Зимняя шапка',
         price: 25,
         rating: 4.3,
+        url: 'https://www.google.com',
       },
     ],
   },
@@ -94,11 +104,13 @@ const categories = [
     description: 'Лучшие решения для дома',
     products: [
       {
-        image: '/images/vacuum.jpg',
+        image:
+          'https://resources.cdn-kaspi.kz/img/m/p/hdb/h2f/63803859566622.jpg?format=preview-large',
         name: 'Пылесос',
         description: 'Мощный пылесос',
         price: 199,
         rating: 4.6,
+        url: 'https://www.google.com',
       },
       {
         image: '/images/microwave.jpg',
@@ -106,6 +118,7 @@ const categories = [
         description: 'Современная микроволновка',
         price: 150,
         rating: 4.5,
+        url: 'https://www.google.com',
       },
       {
         image: '/images/fridge.jpg',
@@ -113,6 +126,7 @@ const categories = [
         description: 'Энергоэффективный холодильник',
         price: 999,
         rating: 4.8,
+        url: 'https://www.google.com',
       },
       {
         image: '/images/washer.jpg',
@@ -120,6 +134,7 @@ const categories = [
         description: 'Автоматическая стиральная машина',
         price: 799,
         rating: 4.7,
+        url: 'https://www.google.com',
       },
       {
         image: '/images/coffee.jpg',
@@ -127,6 +142,7 @@ const categories = [
         description: 'Для настоящих любителей кофе',
         price: 349,
         rating: 4.6,
+        url: 'https://www.google.com',
       },
     ],
   },
@@ -141,6 +157,7 @@ const categories = [
         description: 'Лучшие фантастические романы',
         price: 15,
         rating: 4.8,
+        url: 'https://www.google.com',
       },
       {
         image: '/images/book2.jpg',
@@ -148,6 +165,7 @@ const categories = [
         description: 'Захватывающие детективные истории',
         price: 18,
         rating: 4.7,
+        url: 'https://www.google.com',
       },
       {
         image: '/images/book3.jpg',
@@ -155,6 +173,7 @@ const categories = [
         description: 'Книги о финансах и успехе',
         price: 20,
         rating: 4.5,
+        url: 'https://www.google.com',
       },
       {
         image: '/images/book4.jpg',
@@ -162,6 +181,7 @@ const categories = [
         description: 'Популярные научные издания',
         price: 22,
         rating: 4.6,
+        url: 'https://www.google.com',
       },
       {
         image: '/images/book5.jpg',
@@ -169,6 +189,7 @@ const categories = [
         description: 'Магические миры и приключения',
         price: 17,
         rating: 4.9,
+        url: 'https://www.google.com',
       },
     ],
   },
