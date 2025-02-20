@@ -179,6 +179,7 @@ export const CategoryView = () => {
   const navigate = useNavigate();
   return (
     <div className={styles.container}>
+      <h2 className={styles.title}>Категории</h2>
       <div className={styles.categoriesGrid}>
         {categories.map((category, index) => (
           <div
