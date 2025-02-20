@@ -7,7 +7,7 @@ import styles from './categories-view.module.css';
 const categories = [
   {
     name: 'Электроника',
-    image: '/images/electronics.jpg',
+    image: '/images/electronics.jpeg',
     description: 'Современные гаджеты и устройства',
     products: [
       {
@@ -49,7 +49,7 @@ const categories = [
   },
   {
     name: 'Одежда',
-    image: '/images/clothing.jpg',
+    image: '/images/clothing.jpeg',
     description: 'Модная одежда для всех',
     products: [
       {
@@ -91,7 +91,7 @@ const categories = [
   },
   {
     name: 'Бытовая техника',
-    image: '/images/appliances.jpg',
+    image: '/images/appliances.jpeg',
     description: 'Лучшие решения для дома',
     products: [
       {
@@ -133,7 +133,7 @@ const categories = [
   },
   {
     name: 'Книги',
-    image: '/images/books.jpg',
+    image: '/images/books.jpeg',
     description: 'Знания и развлечения',
     products: [
       {
