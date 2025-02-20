@@ -13,6 +13,18 @@ interface ProductCardProps {
   };
 }
 
+const shareOnWhatsApp = (product: any) => {
+  const text = `🔥 ${product.name}\n${product.description}\n💰 Цена: ${product.price}₸\n⭐ Рейтинг: ${product.rating}\n🔗 ${product.url}`;
+  const encodedText = encodeURIComponent(text);
+  return `https://wa.me/?text=${encodedText}`;
+};
+
+const shareOnTelegram = (product: any) => {
+  const text = `🔥 ${product.name}\n${product.description}\n💰 Цена: ${product.price}₸\n⭐ Рейтинг: ${product.rating}\n🔗 ${product.url}`;
+  const encodedText = encodeURIComponent(text);
+  return `https://t.me/share/url?url=${product.url}&text=${encodedText}`;
+};
+
 export const ProductCard = ({ product }: ProductCardProps) => {
   return (
     <div className={styles.card}>
@@ -23,8 +35,24 @@ export const ProductCard = ({ product }: ProductCardProps) => {
         </Link>
         <p className={styles.description}>{product.description}</p>
         <div className={styles.bottom}>
-          <p className={styles.price}>${product.price.toFixed(2)}</p>
+          <p className={styles.price}>{product.price}тг</p>
           <p className={styles.rating}>⭐ {product.rating}</p>
+          <div className={styles.shareButtons}>
+            <a
+              href={shareOnWhatsApp(product)}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="bx bxl-whatsapp" />
+            </a>
+            <a
+              href={shareOnTelegram(product)}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="bx bxl-telegram" />
+            </a>
+          </div>
         </div>
       </div>
     </div>

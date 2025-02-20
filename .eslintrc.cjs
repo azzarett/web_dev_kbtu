@@ -46,6 +46,7 @@ module.exports = {
     'no-ternary': 'off',
     'sort-keys': 'off',
     'react/no-array-index-key': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
   },
   overrides: [
     {
