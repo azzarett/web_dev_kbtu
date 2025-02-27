@@ -1,0 +1,8 @@
+- Implement request for sending confirmation code on email (+)
+- Implement execution of request for sending confirmation code on EnterEmailView (+)
+- Configure global store to pass data between views (~)
+- Implement request for getting tokens using confirmation code
+- Implement execution of request for getting tokens on EnterCodeView
+- Implement saving tokens in global store and localStorage
+- Implement count down on EnterCodeView
+- Implement guard for non-authenticated and authenticated users

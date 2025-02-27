@@ -1,0 +1,5 @@
+.input {
+  height: var(--control-height);
+  padding-left: 18px;
+  padding-right: 18px;
+}
