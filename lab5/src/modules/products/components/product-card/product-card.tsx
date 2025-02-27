@@ -1,7 +1,7 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useState } from "react";
+import { Link, useParams } from "react-router-dom";
 
-import styles from './product-card.module.css';
+import styles from "./product-card.module.css";
 
 interface ProductCardProps {
   product: {
@@ -29,6 +29,8 @@ const shareOnTelegram = (product: any) => {
 export const ProductCard = ({ product }: ProductCardProps) => {
   const [likes, setLikes] = useState(product.likes);
 
+  const { categoryName } = useParams();
+
   const handleLike = () => {
     setLikes(likes + 1);
   };
@@ -43,7 +45,7 @@ export const ProductCard = ({ product }: ProductCardProps) => {
             {likes}
           </button>
         </div>
-        <Link to={product.url}>
+        <Link to={`/products/${categoryName}/${product.name}`}>
           <h3 className={styles.name}>{product.name}</h3>
         </Link>
         <p className={styles.description}>{product.description}</p>
